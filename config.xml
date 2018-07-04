@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "floppy.block"
+        version   = "1.0">
+
+    <name>Floppy Block</name>
+
+    <description>
+        A new take on the 'Flappy Bird' type game
+    </description>
+
+    <preference name="Orientation" value="landscape" />
+
+    <preference name="phonegap-version" value="cli-7.0.1" />
+
+    <preference name="permissions" value="none"/>
+
+	<access origin="*"/>
+   	<plugin name="cordova-plugin-whitelist" version="1" />
+</widget>
